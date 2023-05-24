@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.left-part{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.list{
+    margin: 3px;
+    list-style-type: none;
+}
+
+.list li a{
+    margin: 8px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.list li a:hover{
+    color: cornflowerblue;
+}
+
+.right-part input{
+    margin-right: 10px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.right-part button{
+    color: antiquewhite;
+    border-radius: 10px;
+    border-color: aqua;
+}
+
+.right-part button:hover{
+    background-color: cyan;
+    color: black;
+    border-style: none;
+}
+
+.card{
+    margin: 7px;
+    padding: 10px;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+}
+
+.content{
+    text-align: left;
+    width: 40%;
+}
+
+.repo-card{
+    margin: 15px;
+    /* padding: 8px; */
+    width: 500px;
+    /* border-style: groove; */
+    border-radius: 25px;
+    background-color: rgb(212, 208, 208);
+}
+
+#output{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.heading{
+    background-color: rgba(126, 125, 125, 0.897);
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.card-details{
+    padding: 15px;
+}
