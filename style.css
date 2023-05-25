@@ -8,45 +8,17 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.left-part{
-    display: flex;
-    width: 30%;
-    justify-content: space-around;
-}
-
-.list{
-    margin: 3px;
-    list-style-type: none;
-}
-
-.list li a{
-    margin: 8px;
-    text-decoration: none;
-    color: aliceblue;
-}
-
-.list li a:hover{
-    color: cornflowerblue;
-}
-
-.right-part input{
+.rgt-part input{
     margin-right: 10px;
-    padding: 5px;
     border-style: none;
     border-radius: 20px;
     text-align: center;
 }
 
-.right-part button{
+.rgt-part button{
     color: antiquewhite;
     border-radius: 10px;
-    border-color: aqua;
-}
-
-.right-part button:hover{
-    background-color: cyan;
-    color: black;
-    border-style: none;
+    margin: 5px;
 }
 
 .card{
@@ -57,14 +29,16 @@ body{
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    background-color: rgb(233, 231, 229);
 }
 
 .card img{
     width: 250px;
     height: 250px;
+    width: 50%;
 }
 
-.content{
+.card-body{
     text-align: left;
     width: 40%;
 }

@@ -5,14 +5,13 @@ async function search(){
 
     const api = await fetch(`https://api.github.com/users/${username.value}`);
     const data = await api.json();
+    console.log(data);
 
     let output="";
     output+=`
-    <div class="card d-flex">
-    <div class="img">
-    <img src="${data.avatar_url}" alt="user">
-    </div>
-    <div class="content">
+    <div class="card">
+    <img src="${data.avatar_url}" class="card-img-top" alt="img">
+    <div class="card-body">
     <h4>Name: ${data.name}</h4>
     <h6>Login Name: ${data.login}</h6>
     <p>User Type: ${data.type}</p>
