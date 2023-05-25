@@ -1,9 +1,13 @@
-const username = document.querySelector("#username");
+const username = document.getElementById("username");
+console.log(username);
 let showdata = document.getElementById("output");
-async function search(){  
+// console.log(showdata);
+console.log(username.value)
+async function search(){ 
     // let showdata = document.getElementById("output");
 
     const api = await fetch(`https://api.github.com/users/${username.value}`);
+    console.log(api);
     const data = await api.json();
     console.log(data);
 
